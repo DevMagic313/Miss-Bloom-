@@ -19,7 +19,7 @@ export default function Header() {
       transition={{ duration: 0.8 }}
       className="relative bg-gradient-to-r from-pink-500 to-purple-600 py-8"
     >
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80')] bg-cover bg-center mix-blend-overlay opacity-20"></div>
+      <div className="absolute inset-0 bg-[url('../../img/logo.jpeg')] bg-cover bg-center mix-blend-overlay opacity-20"></div>
       
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between relative z-10">
@@ -29,7 +29,7 @@ export default function Header() {
             transition={{ type: "spring", stiffness: 300 }}
           >
             <img
-              src="https://images.unsplash.com/photo-1600096194534-95cf5ece04cf?auto=format&fit=crop&w=100&h=100&q=80"
+              src="../../img/logo.jpeg"
               alt="Miss Bloom Global Logo"
               className="w-16 h-16 rounded-full border-4 border-white shadow-lg mr-4"
             />
