@@ -10,7 +10,7 @@ export default function Videos() {
             <video
               className="w-full h-[300px] object-cover rounded"
               controls
-              src="videos/miss global 2024.mp4"
+              src="../../video/miss bloom 1.mp4"
             />
             <p className="text-center mt-4 font-medium">Miss Global 2024</p>
           </div>
@@ -18,7 +18,7 @@ export default function Videos() {
             <video
               className="w-full h-[300px] object-cover rounded"
               controls
-              src="videos/missbloomglobal.mp4"
+              src="../../video/miss bloom 2.mp4"
             />
             <p className="text-center mt-4 font-medium">Miss Bloom Global Highlights</p>
           </div>
