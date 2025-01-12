@@ -7,9 +7,9 @@ export default function About() {
         <h2 className="text-3xl font-bold text-center mb-8">About Mabel Boamah, Founder of Miss Bloom Global</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           {[
-            'https://images.unsplash.com/photo-1611432579699-484f7990b127?auto=format&fit=crop&w=800&q=80',
-            'https://images.unsplash.com/photo-1589156229687-496a31ad1d1f?auto=format&fit=crop&w=800&q=80',
-            'https://images.unsplash.com/photo-1583195764036-6dc248ac07d9?auto=format&fit=crop&w=800&q=80'
+            '../../img/founder 1.jpeg',
+            '../../img/founder 2.jpeg',
+            '../../img/founder 3.jpeg'
           ].map((src, index) => (
             <img
               key={index}
